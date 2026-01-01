@@ -1,0 +1,30 @@
+{
+  "name": "panel-auto-bot",
+  "version": "2.0.0",
+  "description": "Telegram Bot for Automated Pterodactyl Panel Sales",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0",
+    "qs": "^6.11.0",
+    "canvas": "^2.11.2",
+    "qrcode": "^1.5.3",
+    "moment": "^2.29.4",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "telegram-bot",
+    "pterodactyl",
+    "panel",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
